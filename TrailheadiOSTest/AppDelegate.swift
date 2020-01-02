@@ -53,7 +53,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate {
 
         //Uncomment the code below to see how you can customize the color, textcolor,
         //font and fontsize of the navigation bar
-//        self.customizeLoginView()
+//      self.customizeLoginView()
         AuthHelper.loginIfRequired {
             self.setupRootViewController()
         }
